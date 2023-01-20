@@ -1,0 +1,446 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1064950262361501746/backgorundtotal2khightech.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px solid rgba(255, 0, 0, 0);
+    min-height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0px;
+}
+
+.main-nav {
+    background-color: rgba(0, 0, 0, 0.637);
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    border: 0px rgba(0, 0, 0, 0);
+    position: fixed;
+    width: 100%;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: rgba(255, 255, 255, 0.644);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 181px;
+}
+
+.main-nav li a:hover {
+    color: #343636;
+}
+
+.main-header {
+    min-height: 100vh;
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1064950262667673610/backgroundmain.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.main-header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(2, 2, 2, 0.521);
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 340px;
+}
+
+.main-header p {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(3, 3, 3, 0.411);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.main-header a {
+    border: solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    padding: 5px 10px;
+    color: #fca55f;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 0PX;
+
+
+}
+
+.main-paths {
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 0px;
+
+}
+
+.main-paths h2 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+
+.main-header a:hover {
+    border: 2px solid #00b7ff04;
+    background-color: #00b7ff00;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.main-paths {
+    min-height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-paths h2 {
+    font-size: 50px;
+    color: rgba(240, 248, 255, 0.712);
+    font-weight: bold;
+    margin: 0 0 50px 60px;
+}
+
+.card-container {
+    border: 5px solid rgba(255, 0, 0, 0);
+    min-height: 100vh;
+}
+
+.card-element {
+    border: 1px solid rgba(0, 255, 13, 0);
+    border-radius: 10px;
+    width: 99%;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+}
+
+.card-left {
+    border: 0px solid #fca55f;
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-left2 {
+    border: 0px solid #fca55f;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.card-img-right-01 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065309752374079548/capital.jpg");
+}
+
+.card-img-right-02 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065309751551987732/ice.jpg");
+}
+
+.card-img-right-03 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065309750637637662/water.jpg");
+}
+
+.card-img-right-04 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065297530897829918/neptuneboy666_elvish_city_future_space_high_definition_landscap_7dfd3d26-b967-4a3e-baaf-1d050ec310c5.jpg");
+}
+
+.card-img-right-05 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065297812981551206/neptuneboy666_dark_city._in_a_Zdzisaw_Beksiski_universe_in_the__fd0aeef1-8ace-4e6d-ba7a-3e634751016d.jpg");
+}
+
+.card-img-right-06 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065312842905038858/neptuneboy666_lady_empress_of_the_galactic_empire_with_many_jew_f0c92db2-f313-4033-a661-b132e8d8d36e.jpg");
+}
+
+.card-img-right-07 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065421206569889853/neptuneboy666_people_dressing_many_jewels_aboard_a_luxury_space_22e86e0f-026b-4827-bdc9-696ed0dbff0d.jpg");
+}
+
+.card-right {
+    border: 0px solid rgba(0, 60, 255, 0);
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(255, 254, 254, 0.233);
+    width: 100%;
+    padding: 20px;
+    /* text-align: right; */
+}
+
+.card-right2 {
+    border: 0px solid rgba(0, 60, 255, 0);
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgba(255, 254, 254, 0.233);
+    width: 100%;
+    padding: 20px;
+    /* text-align: right; */
+}
+
+.text-left {
+    text-align: right;
+}
+
+
+.card-right h3,
+.card-right2 h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.card-right p,
+.card-right2 p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-right a,
+.classes-bottom a,
+.card-right2 a {
+    color: #fca55f;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+
+.card-right a:hover,
+.classes-bottom a:hover,
+.card-right2 a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+/* classes */
+
+.main-classes {
+    color: rgba(240, 248, 255, 0.541);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-classes h2 {
+    font-size: 50px;
+    color: rgba(240, 248, 255, 0.712);
+    font-weight: bold;
+    margin: 60PX 50PX 10px 50px;
+}
+
+.main-classes h1 {
+    margin: 10PX 50PX 10px 50px;
+
+}
+
+.classes-container {
+    border: 5px solid rgba(255, 0, 0, 0);
+    min-height: 100%;
+    padding: 10px;
+}
+
+.classes {
+    border: 2px solid rgba(0, 0, 255, 0);
+    background-color: rgba(240, 248, 255, 0.103);
+    border-radius: 8px;
+    width: 15%;
+    height: 800px;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.classes-top {
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 10px;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.classes-01-img {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065256309873717358/earth.jpg");
+}
+
+.classes-02-img {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065419792531603557/neptuneboy666_lady_empress_of_the_galactic_empire_of_water_with_a8913b35-444a-4faf-9378-37e88ce25c03.jpg");
+}
+
+.classes-03-img {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065313556213538916/neptuneboy666_black_female_empress_of_the_galactic_empire_of_ic_14128170-39bd-4e47-bdd9-6b35a736682f.jpg");
+}
+
+.classes-04-img {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065326095873880165/rogue.jpg");
+}
+
+.classes-05-img {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065311781834195054/neptuneboy666_lady_empress_of_the_galactic_empire_cinematical_s_ebc3be10-ce44-4c45-8c93-136cf378959c.jpg");
+}
+
+.classes-06-img {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065326954070425640/ranger.jpg");
+}
+
+.classes-bottom {
+    border: 2px solid rgba(0, 0, 255, 0);
+    font-size: smaller;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+}
+
+.map-theempire {
+    color: rgba(240, 248, 255, 0.541);
+    border: 2px solid rgba(255, 0, 0, 0);
+    min-height: 100vh;
+    background-color: #202020c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1%;
+    padding: 30px;
+    padding-bottom: 100px;
+    margin: 100px;
+    margin-bottom: 0px;
+}
+
+.map-theempire h2 {
+    color: rgba(240, 248, 255, 0.541);
+    font-size: 60px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 20px;
+}
+
+.map-theempire img {
+    width: 1000px;
+    border-radius: 20px
+}
+
+.map-thempire img :hover {
+    color: #444747;
+    display: flex;
+}
+
+.map-theempire h5 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+.map-theempire p {
+    font-size: 20px;
+    width: 60%;
+    margin: 20px 0;
+
+}
+
+.map-theempire a {
+    border: solid rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: fit-content;
+    /* padding: 5px 10px; */
+    color: #fca55f;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 10PX;
+
+}
+
+
+.map-theempire a:hover {
+    display: flex;
+    background-color: #00b7ff00;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.main-bottom {
+    min-height: 100vh;
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065426709534474300/neptuneboy666_great_enormous_refinery_complex_space_hight_defin_c27c9ad3-b51c-41ae-af65-921c2e162c96.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main-bottom h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(2, 2, 2, 0.521);
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main-bottom p {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.548);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+/*  */
+
+.map-text2 {
+    display: none;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.397);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.map2 {
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 12px;
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065582031368626196/map2.jpg");
+    display: flex;
+    background-color: rgba(255, 250, 242, 0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100vh;
+}
