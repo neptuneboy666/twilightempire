@@ -1,0 +1,230 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgba(240, 248, 255, 0.712);
+    font-weight: bold;
+    margin: 5px 20px 0px 30px;
+}
+
+
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1064950262361501746/backgorundtotal2khightech.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px solid rgba(255, 0, 0, 0);
+    min-height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0px;
+    height: 100%
+}
+
+.containerclass {
+    width: 100%;
+    height: 100vh;
+    ;
+    /* border: solid 5px rgba(255, 0, 0, 0); */
+    box-sizing: border-box;
+    display: flex;
+    padding-bottom: 100px;
+    /* border-radius: 1%; use flexbox layout */
+}
+
+.splitfour {
+    width: 25%;
+    height: 98%;
+    /* flex-grow: 1; */
+    margin: 18px;
+    /* border: solid 5px rgba(0, 255, 0, 0); */
+    box-sizing: border-box;
+    border-radius: 2%;
+    content-visibility: hidden;
+}
+
+
+.splitfour:hover {
+    content-visibility: visible;
+    height: fit-content;
+}
+
+.subclassname {
+    color: rgb(240, 255, 255);
+    visibility: visible;
+    text-align: center;
+    font-size: 215%;
+    font-weight: bold;
+    margin-top: 13px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* .subclassname:hover {
+    visibility: hidden;
+} */
+
+
+.skill {
+    width: 95%;
+    height: f;
+    margin: 2%;
+    border: solid 5px rgba(4, 0, 255, 0);
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-radius: 2%;
+    align-items: stretch;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(245, 125, 45);
+}
+
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.icon {
+    background-image: url('https://cdn.discordapp.com/attachments/1050792777660780544/1084255761938522233/neptuneboy666_videgame_simple_2d_skill_icon_the_skill_Dual-wiel_cd2120bd-02e1-4025-858f-5fa386d0f006.png');
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    font-style: bold;
+    color: azure;
+}
+
+.skillName {
+    color: azure;
+    font-weight: bold;
+    height: 100px;
+    width: 30%;
+    font-size: 200%;
+    text-align: left;
+    margin: auto;
+    padding-left: 10px;
+    text-shadow: black;
+}
+
+.skilllevel {
+    color: azure;
+    font-weight: bold;
+    height: 100px;
+    width: 30%;
+    font-size: 400%;
+    text-align: left;
+}
+
+.lvl {
+    color: azure;
+    font-weight: bold;
+    height: 100px;
+    width: 30%;
+    font-size: 100%;
+    padding-left: 70px;
+    padding-right: 0px;
+}
+
+.description {
+    color: beige;
+    text-align: left;
+    border-radius: 2%;
+    margin: auto;
+    padding-top: 5px;
+
+}
+
+/*                 LEFT STUFF                */
+.top-containerLeft {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.lvlLeft {
+    color: azure;
+    font-weight: bold;
+    height: 100px;
+    font-size: 100%;
+    padding-left: 5px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: min-content;
+
+}
+
+.skilllevelLeft {
+    color: azure;
+    font-weight: bold;
+    height: 100px;
+    width: min-content;
+    font-size: 400%;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.skillNameLeft {
+    color: azure;
+    font-weight: bold;
+    height: 100px;
+    width: 30%;
+    font-size: 200%;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.iconleft {
+    align-self: right;
+}
+
+#BerserkerSentinel {
+    background-image: url('https://cdn.discordapp.com/attachments/1050792777660780544/1084510431508439140/neptuneboy666_front_full_body_beautiful_male_warrior_heavy_armo_a01c0ea1-be5f-4452-a451-14242554d8a6.png.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+#PaladinDefender {
+    background-image: url('https://cdn.discordapp.com/attachments/1050792777660780544/1084504480311160912/neptuneboy666_front_full_body_beautiful_male_warrior_mega_mecha_27534c2a-00a4-46d2-9ddf-4d0abcf5821b.png.jpg');
+    background-size: cover;
+    background-position-x: 100%;
+}
+
+#DuelistSwashbuckler {
+    background-image: url('https://cdn.discordapp.com/attachments/1050792777660780544/1084518755406712952/neptuneboy666_front_full_body_beautiful_male_warrior_light_armo_8eb4ef34-c9cd-48f8-ba8c-71c511368d0d.png.jpg');
+    background-size: 124%;
+    background-position: left;
+}
+
+#GladiatorExecutioner {
+    background-image: url('https://cdn.discordapp.com/attachments/1050792777660780544/1084518576477704292/neptuneboy666_front_full_body_athletic_male_warrior_light_armor_626514af-26d9-4dad-8229-391f99fc362b.png.jpg');
+    background-size: 155%;
+    background-position: right;
+}
+
+
+.back-to-home {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fca55f;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.493);
+}
+
+.back-to-home a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.back-to-home a:hover {
+    color: #ffffff;
+}
