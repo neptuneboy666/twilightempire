@@ -22,10 +22,13 @@ body {
     border: 0px rgba(0, 0, 0, 0);
     position: fixed;
     width: 100%;
+    text-align: center;
 }
 
 .main-nav li {
     display: inline-block;
+    width: 24%;
+    justify-content: space-between;
 }
 
 .main-nav li a {
@@ -33,7 +36,6 @@ body {
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
-    padding: 5px 181px;
 }
 
 .main-nav li a:hover {
@@ -245,7 +247,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
 }
 
 .main-classes h2 {
@@ -262,28 +264,30 @@ body {
 
 .classes-container {
     border: 5px solid rgba(255, 0, 0, 0);
-    min-height: 100%;
+    height: fit-content;
     padding: 10px;
+    justify-content:flex-start;
 }
 
 .classes {
     border: 2px solid rgba(0, 0, 255, 0);
     background-color: rgba(240, 248, 255, 0.103);
     border-radius: 8px;
-    width: 15%;
+    width: 14.3%;
     height: 800px;
     margin: 10px;
     display: inline-block;
-
+    height: fit-content;
 }
 
 .classes-top {
     border: 2px solid rgba(255, 0, 0, 0);
     border-radius: 10px;
-    height: 80%;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 0px;
 }
 
 .classes-01-img {
@@ -317,6 +321,26 @@ body {
     padding-top: 0px;
     padding-bottom: 10px;
 
+}
+
+/* Classes Responsive  */
+
+@media (max-width: 1500px) {
+    .classes {
+      width: 31%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .classes {
+      width: 47%;
+    }
+}
+
+@media (max-width: 876px) {
+    .classes {
+      width: 96%;
+    }
 }
 
 .map-theempire {
