@@ -94,6 +94,7 @@ body {
     font-style: bold;
     color: azure;
     border-radius: 10%;
+    border-radius: 10%;
 }
 
 .skillName {
@@ -180,6 +181,7 @@ body {
 
 .iconleft {
     align-self: right;
+    border-radius: 10%;
 }
 
 #Techno-mechamancer {
