@@ -84,17 +84,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 3%;
+    border-radius: 1%;
     padding: 30px;
     margin: 100px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
 
-h2 {
+h3 {
     padding: 15px;
     padding-top: 1px;
     text-align: center;
+    font-size: 200%;
+}
+
+h2 {
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 200%;
 }
 
 p {
@@ -113,4 +121,36 @@ h5 {
     margin: 0;
     font-weight: normal;
     font-size: 100%;
+}
+
+/* .bordered-map {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    display: inline-block;
+} */
+
+.image1 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1085303462868291684/zane_1.jpg");
+    background-color: rgba(255, 250, 242, 0);
+    background-position: center;
+    background-size: 90vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    height: 40vh;
+    background-clip: padding-box;
+    border-radius: 10px;
+}
+
+.image2 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1085314278338351304/zane_2.jpg");
+    background-color: rgba(255, 250, 242, 0);
+    background-position: center;
+    background-size: 90vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    height: 40vh;
+    background-clip: padding-box;
+    border-radius: 10px;
 }
