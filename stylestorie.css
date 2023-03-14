@@ -154,3 +154,29 @@ h5 {
     background-clip: padding-box;
     border-radius: 10px;
 }
+
+.image3 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1085324187977138266/eira.jpg");
+    background-color: rgba(255, 250, 242, 0);
+    background-position: center;
+    background-size: 90vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    height: 40vh;
+    background-clip: padding-box;
+    border-radius: 10px;
+}
+
+.image4 {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1085331126077366272/Sariah.png");
+    background-color: rgba(255, 250, 242, 0);
+    background-position: center;
+    background-size: 90vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    height: 40vh;
+    background-clip: padding-box;
+    border-radius: 10px;
+}
