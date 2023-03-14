@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1064950262361501746/backgorundtotal2khightech.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px solid rgba(255, 0, 0, 0);
+    min-height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0px;
+}
+
+
+.main-nav {
+    background-color: rgba(0, 0, 0, 0.637);
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    border: 0px rgba(0, 0, 0, 0);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline-block;
+    width: 24%;
+    justify-content: space-between;
+}
+
+.main-nav li a {
+    color: rgba(255, 255, 255, 0.644);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    color: #343636;
+}
+
+.main-header {
+    min-height: 50vh;
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1064950262667673610/backgroundmain.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.main-header h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.562);
+    text-align: center;
+    /* margin-bottom: 0px;
+    margin-top: 340px; */
+}
+
+.main-header p {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.815);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.container {
+    color: rgba(240, 248, 255, 0.541);
+    background-color: #202020c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3%;
+    padding: 30px;
+    margin: 100px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding: 15px;
+    padding-top: 1px;
+    text-align: center;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+
+footer {
+    background-color: #333333a9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h5 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 100%;
+}
