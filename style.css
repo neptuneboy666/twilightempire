@@ -191,6 +191,14 @@ body {
     background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1065421206569889853/neptuneboy666_people_dressing_many_jewels_aboard_a_luxury_space_22e86e0f-026b-4827-bdc9-696ed0dbff0d.jpg");
 }
 
+.card-img-right-08 {
+    background-image: url(".//images/cybercementery.jpg");
+}
+
+.card-img-right-09 {
+    background-image: url(".//images/tales\ cover.jpg");
+}
+
 .card-right {
     border: 0px solid rgba(0, 60, 255, 0);
     border-radius: 0px 10px 10px 0px;

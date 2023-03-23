@@ -1,0 +1,123 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/1050792777660780544/1087668667535339591/neptuneboy666_Psychedelica_magical_arch_diesel-punk_ghosts_asce_9f38a72b-89db-4840-b0f4-7fa3171fff4d.png);
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 5px 25px rgba(214, 106, 5, 0.822);
+    padding-top: 50px;
+}
+
+.profile-img-container {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.name {
+    color: #000000a8;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    font-style: bold;
+}
+
+.description {
+    color: #03000091;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.description1 {
+    color: #030000b0;
+    font-size: 1rem;
+    margin: 10px 0;
+    text-align: center;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.description2 {
+    color: #030000ab;
+    font-size: 1.3rem;
+    margin: 10px 0;
+    text-align: center;
+    margin: 0px;
+}
+
+.description3 {
+    color: #030000ab;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9px;
+    font-size: 30px;
+    color: azure;
+}
+
+li {
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-size: 3.3rem;
+}
+
+a {
+    color: rgb(175, 128, 57);
+}
+
+.material-symbols-outlined {
+    font-size: 4rem;
+
+}
+
+a:hover {
+
+    color: rgb(255, 204, 66);
+
+}
