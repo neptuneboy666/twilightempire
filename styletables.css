@@ -27,7 +27,7 @@ body {
     padding: 10px;
     margin: 0;
     border: 0px rgba(0, 0, 0, 0);
-    position: fixed;
+    position:fixed;
     width: 100%;
     text-align: center;
 }
@@ -116,15 +116,14 @@ h2 {
 
 p {
     padding-bottom: 20px;
+    margin: 0px 50px;
+    text-align: left;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 
-footer {
-    background-color: #333333a9;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
 
 h5 {
     margin: 0;
@@ -197,6 +196,75 @@ table {
 
 .fourth tr:nth-child(1)th:first-child {
     width: 100px;
+}
+
+
+
+.card-element {
+    border: 1px solid rgba(0, 255, 13, 0);
+    border-radius: 10px;
+    align-items: center;
+    width: 99%;
+    height: 400px;
+    margin: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.card-right {
+    border: 0px solid rgba(0, 60, 255, 0);
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(255, 254, 254, 0.336);
+    width: 98vw;
+    padding-bottom: 40px;
+    text-align: center
+}
+
+.card-left {
+    border: 0px solid #fca55f;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+    height: 100%;
+    width: 98vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img-regalonia {
+    background-image: url(".//images/JPEG/Regalonia\ \(4\).jpg");
+}
+
+.card-img-Glaciesdrom {
+    background-image: url(".//images/JPEG/Glaciesdrom\ \(3\).jpg");
+}
+
+.card-img-Hydrotharix {
+    background-image: url(".//images/JPEG/Hydrotharix\ \(2\).jpg");
+}
+
+.card-img-Rukth-A-Tar {
+    background-image: url(".//images/JPEG/Rukth-a-Tar.jpg");
+}
+
+.card-img-walddormnium {
+    background-image: url(".//images/JPEG/Walddormnium\ \(2\).jpg");
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+
+footer {
+    background-color: #33333393;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
 footer p {
