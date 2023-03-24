@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1064950262361501746/backgorundtotal2khightech.jpg");
+    background-image: url(".//images/backgorundtotal2khightech.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,8 +50,8 @@ body {
 }
 
 .main-header {
-    min-height: 50vh;
-    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1064950262667673610/backgroundmain.jpg");
+    min-height: 95vh;
+    background-image: url(".//images/neptuneboy666_future_city_space_High_Definition_landscape_wide__3755f48b-48c3-4e47-be47-c6790268321b\ \(1\).jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body {
 .main-header h1 {
     font-size: 100px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.562);
+    color: rgba(5, 5, 5, 0.397);
     text-align: center;
     /* margin-bottom: 0px;
     margin-top: 340px; */
@@ -131,7 +131,7 @@ h5 {
 } */
 
 .image1 {
-    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1085303462868291684/zane_1.jpg");
+    background-image: url(".//images/zane\ 1.jpg");
     background-color: rgba(255, 250, 242, 0);
     background-position: center;
     background-size: 90vh;
@@ -144,7 +144,7 @@ h5 {
 }
 
 .image2 {
-    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1085314278338351304/zane_2.jpg");
+    background-image: url(".//images/zane\ 2.jpg");
     background-color: rgba(255, 250, 242, 0);
     background-position: center;
     background-size: 90vh;
@@ -157,7 +157,7 @@ h5 {
 }
 
 .image3 {
-    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1085324187977138266/eira.jpg");
+    background-image: url(".//images/eira.jpg");
     background-color: rgba(255, 250, 242, 0);
     background-position: center;
     background-size: 90vh;
@@ -170,7 +170,7 @@ h5 {
 }
 
 .image4 {
-    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1085333206544433152/Sariah.png.jpg");
+    background-image: url(".//images/Sariah.png.jpg");
     background-color: rgba(255, 250, 242, 0);
     background-position: center;
     background-size: 90vh;
@@ -181,3 +181,8 @@ h5 {
     background-clip: padding-box;
     border-radius: 10px;
 }
+
+footer p {
+    margin: 0;
+}
+

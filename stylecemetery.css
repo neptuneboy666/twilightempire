@@ -1,5 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
-    background-image: url(https://cdn.discordapp.com/attachments/1050792777660780544/1087668667535339591/neptuneboy666_Psychedelica_magical_arch_diesel-punk_ghosts_asce_9f38a72b-89db-4840-b0f4-7fa3171fff4d.png);
+    background-image: url(".//images/cemetery.jpg");
     background-repeat: repeat;
     background-size: cover;
     position: absolute;
@@ -120,4 +124,14 @@ a:hover {
 
     color: rgb(255, 204, 66);
 
+}
+footer p {
+    margin: 0;
+}
+
+footer {
+    background-color: #333333a9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
