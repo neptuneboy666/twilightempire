@@ -135,7 +135,7 @@ table {
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
     width: 270px;
-    height: 300px;
+    /* height: 300px; */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -173,7 +173,7 @@ table {
     width: 700px;
     /* border-collapse: collapse; */
     table-layout: fixed;
-    word-break: break-word;
+    word-break:keep-all;
 
 }
 
@@ -270,3 +270,4 @@ footer {
 footer p {
     margin: 0;
 }
+
